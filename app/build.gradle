@@ -42,6 +42,9 @@ dependencies {
     //Dagger
     implementation "com.google.dagger:hilt-android:2.38.1"
     kapt "com.google.dagger:hilt-compiler:2.38.1"
+    //Rom
+    implementation "androidx.room:room-runtime:$project.room_version"
+    annotationProcessor "androidx.room:room-compiler:$project.room_version"
 
     //Tests
     testImplementation "junit:junit:$project.junit_version"
